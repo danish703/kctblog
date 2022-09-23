@@ -1,0 +1,30 @@
+{% extends 'master.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Login Yourself</h5>
+                    <hr/>
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Username</span>
+                            <input type="text" class="form-control" placeholder="Username" name="username">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon3">Password</span>
+                            <input type="password" class="form-control" placeholder="Username" name="password1">
+                        </div>
+                        <hr/>
+                        <button type="submit" class="btn btn-success">Save</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+{% endblock %}
